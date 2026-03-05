@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Bebas+Neue&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'DM Mono', monospace;
+  background: #f0ece3;
+}
+
+.card {
+  background: #faf8f4;
+  border: 2px solid #1a1a18;
+  width: 380px;
+  padding: 36px 32px 32px;
+  box-shadow: 6px 6px 0 #1a1a18;
+}
+
+.header {
+  margin-bottom: 28px;
+  padding-bottom: 14px;
+  border-bottom: 2px solid #1a1a18;
+}
+
+.header .label {
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  color: #d4401a;
+}
+
+.header h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 52px;
+  letter-spacing: 0.06em;
+  line-height: 1;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+input, select {
+  font-family: 'DM Mono', monospace;
+  border: 2px solid #1a1a18;
+  background: white;
+  color: #1a1a18;
+  outline: none;
+  padding: 10px 12px;
+}
+
+.arrow {
+  text-align: center;
+  color: #8a8680;
+  margin: 8px 0;
+}
+
+.to-row {
+  margin-bottom: 20px;
+}
+
+.to-row select {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  padding: 13px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 22px;
+  letter-spacing: 0.1em;
+  background: #1a1a18;
+  color: #f0ece3;
+  border: 2px solid #1a1a18;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 #d4401a;
+}
+
+button:hover {
+  background: #d4401a;
+  border-color: #d4401a;
+  box-shadow: 3px 3px 0 #1a1a18;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 14px;
+  border: 2px dashed #ccc9c0;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 13px;
+  color: #8a8680;
+}
